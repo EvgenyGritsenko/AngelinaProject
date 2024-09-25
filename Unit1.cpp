@@ -1,0 +1,110 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include <ShellAPI.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include "Unit2.h"
+#include "Unit3.h"
+#include "Unit4.h"
+#include "Unit5.h"
+#include "Unit6.h"
+#include "Unit7.h"
+#include "Unit8.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+
+
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::N4Click(TObject *Sender)
+{
+	TForm2 *form = new TForm2(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::N5Click(TObject *Sender)
+{
+	TForm3 *form = new TForm3(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::N6Click(TObject *Sender)
+{
+	TForm4 *form = new TForm4(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::N7Click(TObject *Sender)
+{
+	TForm5 *form = new TForm5(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::N8Click(TObject *Sender)
+{
+	TForm6 *form = new TForm6(this);
+	form->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::N9Click(TObject *Sender)
+{
+	TForm7 *form = new TForm7(this);
+	form->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label3Click(TObject *Sender)
+{
+	ShellExecute(0, L"open", L"https://education.yandex.ru/handbook/cpp/article/functions", NULL, NULL, SW_SHOWNORMAL);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label5Click(TObject *Sender)
+{
+	ShellExecute(0, L"open", L"https://ravesli.com/uroki-cpp/", NULL, NULL, SW_SHOWNORMAL);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label6Click(TObject *Sender)
+{
+    ShellExecute(0, L"open", L"https://www.youtube.com/playlist?list=PLDyJYA6aTY1llzwya3FrWX4tmo-hm491p", NULL, NULL, SW_SHOWNORMAL);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label7Click(TObject *Sender)
+{
+	ShellExecute(0, L"open", L"https://proglib.io/p/top-18-besplatnyh-uchebnyh-kursov-po-c-c-dlya-novichkov-i-professionalov-2022-01-13", NULL, NULL, SW_SHOWNORMAL);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label8Click(TObject *Sender)
+{
+	ShellExecute(0, L"open", L"https://metanit.com/cpp/", NULL, NULL, SW_SHOWNORMAL);
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::N11Click(TObject *Sender)
+{
+	TForm8 *form = new TForm8(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+
