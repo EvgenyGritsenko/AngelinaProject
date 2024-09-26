@@ -1,9 +1,9 @@
 object Form7: TForm7
   Left = 0
   Top = 0
-  Caption = #1058#1045#1057#1058' '#1044#1040'/'#1053#1045#1058
+  Caption = #1058#1077#1089#1090#1080#1088#1086#1074#1072#1085#1080#1077
   ClientHeight = 541
-  ClientWidth = 559
+  ClientWidth = 992
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,19 +14,22 @@ object Form7: TForm7
   object LabelQuestion: TLabel
     Left = 24
     Top = 24
-    Width = 125
+    Width = 924
     Height = 28
-    Caption = 'LabelQuestion'
+    Caption = 
+      'SomeTextSomeTextSomeTextSomeTextSomeTextSomeTextSomeTextSomeText' +
+      'SomeTextSomeTextSomeText'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -20
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
+    WordWrap = True
   end
   object Button1: TButton
     Left = 24
-    Top = 232
+    Top = 312
     Width = 113
     Height = 97
     Caption = #1044#1040
@@ -40,8 +43,8 @@ object Form7: TForm7
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 424
-    Top = 232
+    Left = 848
+    Top = 312
     Width = 113
     Height = 97
     Caption = #1053#1045#1058

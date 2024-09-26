@@ -12,6 +12,9 @@
 #include "Unit6.h"
 #include "Unit7.h"
 #include "Unit8.h"
+#include "FiveLesson.h"
+#include "Unit10.h"
+#include "Unit11.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -23,7 +26,7 @@ TForm1 *Form1;
 __fastcall TForm1::TForm1(TComponent* Owner)
 	: TForm(Owner)
 {
-
+   ShowMessage("Добро пожаловать в приложение! \nРаботу подготовила Кравченко Ангелина на тему \"Строки. Строковые данные\"");
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::N4Click(TObject *Sender)
@@ -69,42 +72,49 @@ void __fastcall TForm1::N9Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::N51Click(TObject *Sender)
+{
+	TForm9 *form = new TForm9(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label1Click(TObject *Sender)
+{
+	TForm6 *form = new TForm6(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label2Click(TObject *Sender)
+{
+	TForm7 *form = new TForm7(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
+
 void __fastcall TForm1::Label3Click(TObject *Sender)
 {
-	ShellExecute(0, L"open", L"https://education.yandex.ru/handbook/cpp/article/functions", NULL, NULL, SW_SHOWNORMAL);
+	TForm11 *form = new TForm11(this);
+	form->Show();
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::Label5Click(TObject *Sender)
-{
-	ShellExecute(0, L"open", L"https://ravesli.com/uroki-cpp/", NULL, NULL, SW_SHOWNORMAL);
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TForm1::Label6Click(TObject *Sender)
-{
-    ShellExecute(0, L"open", L"https://www.youtube.com/playlist?list=PLDyJYA6aTY1llzwya3FrWX4tmo-hm491p", NULL, NULL, SW_SHOWNORMAL);
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TForm1::Label7Click(TObject *Sender)
-{
-	ShellExecute(0, L"open", L"https://proglib.io/p/top-18-besplatnyh-uchebnyh-kursov-po-c-c-dlya-novichkov-i-professionalov-2022-01-13", NULL, NULL, SW_SHOWNORMAL);
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TForm1::Label8Click(TObject *Sender)
-{
-	ShellExecute(0, L"open", L"https://metanit.com/cpp/", NULL, NULL, SW_SHOWNORMAL);
-}
-//---------------------------------------------------------------------------
-
-
-void __fastcall TForm1::N11Click(TObject *Sender)
+void __fastcall TForm1::N3Click(TObject *Sender)
 {
 	TForm8 *form = new TForm8(this);
 	form->Show();
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::Label5Click(TObject *Sender)
+{
+	TForm10 *form = new TForm10(this);
+	form->Show();
+}
+//---------------------------------------------------------------------------
 

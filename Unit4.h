@@ -9,17 +9,18 @@
 #include <Vcl.Forms.hpp>
 #include <Vcl.ExtCtrls.hpp>
 #include <Vcl.Skia.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
 //---------------------------------------------------------------------------
 class TForm4 : public TForm
 {
 __published:	// IDE-managed Components
-	TImage *Image1;
+	TLabel *Label3;
 	TLabel *Label2;
 	TLabel *Label1;
 	TMemo *Memo1;
-	TLabel *Label3;
-	TMemo *Memo2;
-	TLabel *Label4;
+	TLabel *Label5;
+	TMemo *Memo3;
+	TImage *Image1;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm4(TComponent* Owner);

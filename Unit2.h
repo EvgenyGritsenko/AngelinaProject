@@ -14,14 +14,13 @@
 class TForm2 : public TForm
 {
 __published:	// IDE-managed Components
-	TImage *Image1;
 	TLabel *Label2;
 	TLabel *Label1;
 	TMemo *Memo1;
-	TLabel *Label3;
 	TMemo *Memo2;
-	void __fastcall Memo1Change(TObject *Sender);
-	void __fastcall FormCreate(TObject *Sender);
+	TLabel *Label3;
+	TLabel *Label4;
+	TMemo *Memo3;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm2(TComponent* Owner);
