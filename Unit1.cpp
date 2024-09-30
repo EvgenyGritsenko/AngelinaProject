@@ -15,6 +15,11 @@
 #include "FiveLesson.h"
 #include "Unit10.h"
 #include "Unit11.h"
+#include "Unit12.h"
+#include "Unit13.h"
+#include "Unit14.h"
+#include "Unit15.h"
+#include "Unit16.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -115,6 +120,37 @@ void __fastcall TForm1::Label5Click(TObject *Sender)
 {
 	TForm10 *form = new TForm10(this);
 	form->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label6Click(TObject *Sender)
+{
+	Form12->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label7Click(TObject *Sender)
+{
+	Form13->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label8Click(TObject *Sender)
+{
+	Form14->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label9Click(TObject *Sender)
+{
+	Form15->ShowModal();
+}
+
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label10Click(TObject *Sender)
+{
+   Form16->ShowModal();
 }
 //---------------------------------------------------------------------------
 

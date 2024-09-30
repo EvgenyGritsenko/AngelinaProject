@@ -2224,6 +2224,77 @@ object Form1: TForm1
     ParentFont = False
     OnClick = Label5Click
   end
+  object Label6: TLabel
+    Left = 8
+    Top = 134
+    Width = 161
+    Height = 26
+    Caption = #1042#1045#1056#1061#1053#1048#1049' '#1056#1045#1043#1048#1057#1058#1056
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Intro Demo Cond Light CAPS'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label6Click
+  end
+  object Label7: TLabel
+    Left = 8
+    Top = 182
+    Width = 225
+    Height = 26
+    Caption = #1055#1086#1076#1089#1095#1077#1090' '#1076#1083#1080#1085#1099' '#1089#1090#1088#1086#1082#1080
+    FocusControl = Form12.Owner
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Intro Demo Cond Light CAPS'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label7Click
+  end
+  object Label8: TLabel
+    Left = 8
+    Top = 230
+    Width = 167
+    Height = 26
+    Caption = #1057#1088#1072#1074#1085#1077#1085#1080#1077' '#1089#1090#1088#1086#1082
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Intro Demo Cond Light CAPS'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label8Click
+  end
+  object Label9: TLabel
+    Left = 8
+    Top = 278
+    Width = 227
+    Height = 26
+    Caption = #1048#1079#1074#1083#1077#1095#1077#1085#1080#1077' '#1087#1086#1076#1089#1090#1088#1086#1082#1080
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Intro Demo Cond Light CAPS'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label9Click
+  end
+  object Label10: TLabel
+    Left = 8
+    Top = 326
+    Width = 186
+    Height = 26
+    Caption = #1047#1072#1084#1077#1085#1072' '#1087#1086#1076#1089#1090#1088#1086#1082#1080
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Intro Demo Cond Light CAPS'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label10Click
+  end
   object MainMenu1: TMainMenu
     Left = 8
     Top = 16

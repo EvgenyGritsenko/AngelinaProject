@@ -210,6 +210,36 @@
             <DependentOn>Unit11.h</DependentOn>
             <BuildOrder>12</BuildOrder>
         </CppCompile>
+        <CppCompile Include="Unit12.cpp">
+            <Form>Form12</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit12.h</DependentOn>
+            <BuildOrder>13</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit13.cpp">
+            <Form>Form13</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit13.h</DependentOn>
+            <BuildOrder>14</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit14.cpp">
+            <Form>Form14</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit14.h</DependentOn>
+            <BuildOrder>15</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit15.cpp">
+            <Form>Form15</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit15.h</DependentOn>
+            <BuildOrder>16</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit16.cpp">
+            <Form>Form16</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit16.h</DependentOn>
+            <BuildOrder>17</BuildOrder>
+        </CppCompile>
         <CppCompile Include="Unit2.cpp">
             <Form>Form2</Form>
             <FormType>dfm</FormType>
@@ -252,16 +282,21 @@
             <DependentOn>Unit8.h</DependentOn>
             <BuildOrder>9</BuildOrder>
         </CppCompile>
-        <FormResources Include="Unit5.dfm"/>
-        <FormResources Include="Unit4.dfm"/>
         <FormResources Include="Unit3.dfm"/>
+        <FormResources Include="Unit2.dfm"/>
+        <FormResources Include="Unit16.dfm"/>
+        <FormResources Include="Unit15.dfm"/>
+        <FormResources Include="Unit4.dfm"/>
         <FormResources Include="Unit8.dfm"/>
         <FormResources Include="Unit7.dfm"/>
         <FormResources Include="Unit6.dfm"/>
-        <FormResources Include="FiveLesson.dfm"/>
-        <FormResources Include="Unit2.dfm"/>
-        <FormResources Include="Unit10.dfm"/>
+        <FormResources Include="Unit5.dfm"/>
         <FormResources Include="Unit1.dfm"/>
+        <FormResources Include="FiveLesson.dfm"/>
+        <FormResources Include="Unit10.dfm"/>
+        <FormResources Include="Unit14.dfm"/>
+        <FormResources Include="Unit13.dfm"/>
+        <FormResources Include="Unit12.dfm"/>
         <FormResources Include="Unit11.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

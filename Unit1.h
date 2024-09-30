@@ -31,6 +31,11 @@ __published:	// IDE-managed Components
 	TLabel *Label2;
 	TLabel *Label3;
 	TLabel *Label5;
+	TLabel *Label6;
+	TLabel *Label7;
+	TLabel *Label8;
+	TLabel *Label9;
+	TLabel *Label10;
 	void __fastcall N4Click(TObject *Sender);
 	void __fastcall N5Click(TObject *Sender);
 	void __fastcall N6Click(TObject *Sender);
@@ -43,6 +48,11 @@ __published:	// IDE-managed Components
 	void __fastcall Label3Click(TObject *Sender);
 	void __fastcall N3Click(TObject *Sender);
 	void __fastcall Label5Click(TObject *Sender);
+	void __fastcall Label6Click(TObject *Sender);
+	void __fastcall Label7Click(TObject *Sender);
+	void __fastcall Label8Click(TObject *Sender);
+	void __fastcall Label9Click(TObject *Sender);
+	void __fastcall Label10Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
