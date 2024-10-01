@@ -20,6 +20,9 @@
 #include "Unit14.h"
 #include "Unit15.h"
 #include "Unit16.h"
+#include "Unit17.h"
+#include "Unit18.h"
+#include "Unit19.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -111,8 +114,7 @@ void __fastcall TForm1::Label3Click(TObject *Sender)
 
 void __fastcall TForm1::N3Click(TObject *Sender)
 {
-	TForm8 *form = new TForm8(this);
-	form->Show();
+	Form19->Show();
 }
 //---------------------------------------------------------------------------
 
@@ -151,6 +153,19 @@ void __fastcall TForm1::Label9Click(TObject *Sender)
 void __fastcall TForm1::Label10Click(TObject *Sender)
 {
    Form16->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Label11Click(TObject *Sender)
+{
+	Form17->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::N2Click(TObject *Sender)
+{
+    Form18->Show();
 }
 //---------------------------------------------------------------------------
 

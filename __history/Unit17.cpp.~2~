@@ -1,0 +1,62 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit17.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm17 *Form17;
+//---------------------------------------------------------------------------
+
+// Инициализация списка вопросов
+std::vector<Question> questions = {
+	{"Какой класс в C++ Builder используется для работы со строками?", {"TString", "TForm", "TMemo"}, 0},
+	{"Какой метод класса TStringList добавляет новую строку в список?", {"Add()", "Insert()", "Append()"}, 0},
+	{"Как получить длину строки в C++ Builder?", {"Length()", "size()", "strlen()"}, 0},
+	{"Какой компонент используется для ввода и вывода многострочного текста?", {"TEdit", "TMemo", "TListBox"}, 1},
+	{"Каким методом можно очистить строку в TStringList?", {"Clear()", "Delete()", "Erase()"}, 0},
+	{"Как сконкатенировать две строки в C++ Builder?", {"+", "&", "concat()"}, 0},
+	{"Какой метод класса TStringList удаляет строку по индексу?", {"Remove()", "Delete()", "Erase()"}, 1},
+	{"Как преобразовать строку в верхний регистр?", {"UpperCase()", "ToUpper()", "Upper()"}, 0},
+	{"Какой метод ищет подстроку в строке?", {"Search()", "Pos()", "Find()"}, 1},
+	{"Как извлечь подстроку из строки?", {"Copy()", "Extract()", "Substring()"}, 0},
+};
+
+int currentQuestionIndex = 0;  // Индекс текущего вопроса
+int score = 0;  // Счет правильных ответов
+
+void __fastcall TForm17::ShowQuestion(int index) {
+	if (index < static_cast<int>(questions.size())) {
+		Label1->Caption = questions[index].question;
+		RadioGroup1->Items->Clear();
+		for (const auto &option : questions[index].options) {
+			RadioGroup1->Items->Add(option);
+		}
+		RadioGroup1->ItemIndex = -1;
+	} else {
+		ShowMessage("Тест завершен. Ваш результат: " + IntToStr(static_cast<int>(score)) + " из " + IntToStr(static_cast<int>(questions.size())));
+		Close();
+	}
+}
+
+__fastcall TForm17::TForm17(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+
+void __fastcall TForm17::Button1Click(TObject *Sender)
+{
+	if (RadioGroup1->ItemIndex == questions[currentQuestionIndex].correctAnswerIndex) {
+		score++;
+	}
+	currentQuestionIndex++;
+	ShowQuestion(currentQuestionIndex);
+}
+
+void __fastcall TForm17::FormShow(TObject *Sender)
+{
+	ShowQuestion(0);
+}
+//---------------------------------------------------------------------------

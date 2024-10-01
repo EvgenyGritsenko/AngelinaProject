@@ -16,16 +16,7 @@ class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
 	TMainMenu *MainMenu1;
-	TMenuItem *N1;
-	TMenuItem *N2;
-	TMenuItem *N4;
-	TMenuItem *N5;
-	TMenuItem *N6;
-	TMenuItem *N7;
-	TMenuItem *N8;
-	TMenuItem *N9;
 	TLabel *Label4;
-	TMenuItem *N51;
 	TImage *Image1;
 	TLabel *Label1;
 	TLabel *Label2;
@@ -36,6 +27,9 @@ __published:	// IDE-managed Components
 	TLabel *Label8;
 	TLabel *Label9;
 	TLabel *Label10;
+	TLabel *Label11;
+	TMenuItem *N3;
+	TMenuItem *N2;
 	void __fastcall N4Click(TObject *Sender);
 	void __fastcall N5Click(TObject *Sender);
 	void __fastcall N6Click(TObject *Sender);
@@ -53,6 +47,8 @@ __published:	// IDE-managed Components
 	void __fastcall Label8Click(TObject *Sender);
 	void __fastcall Label9Click(TObject *Sender);
 	void __fastcall Label10Click(TObject *Sender);
+	void __fastcall Label11Click(TObject *Sender);
+	void __fastcall N2Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

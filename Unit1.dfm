@@ -2198,7 +2198,7 @@ object Form1: TForm1
   end
   object Label3: TLabel
     Left = 875
-    Top = 160
+    Top = 208
     Width = 212
     Height = 26
     Caption = #9658' '#1047#1072#1073#1080#1088#1072#1081' '#1096#1087#1072#1088#1075#1072#1083#1082#1080
@@ -2295,42 +2295,30 @@ object Form1: TForm1
     ParentFont = False
     OnClick = Label10Click
   end
+  object Label11: TLabel
+    Left = 881
+    Top = 160
+    Width = 206
+    Height = 26
+    Caption = #9658' '#1055#1088#1086#1081#1076#1080' '#1090#1088#1077#1090#1080#1081' '#1090#1077#1089#1090
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Intro Demo Cond Light CAPS'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label11Click
+  end
   object MainMenu1: TMainMenu
     Left = 8
     Top = 16
-    object N2: TMenuItem
-      Caption = #1058#1077#1089#1090#1080#1088#1086#1074#1072#1085#1080#1077
-      object N8: TMenuItem
-        Caption = #1055#1077#1088#1074#1099#1081' '#1090#1077#1089#1090
-        OnClick = N8Click
-      end
-      object N9: TMenuItem
-        Caption = #1042#1090#1086#1088#1086#1081' '#1090#1077#1089#1090
-        OnClick = N9Click
-      end
+    object N3: TMenuItem
+      Caption = #1058#1077#1086#1088#1080#1103
+      OnClick = N3Click
     end
-    object N1: TMenuItem
-      Caption = #1058#1077#1086#1088#1080#1090#1080#1095#1077#1089#1082#1072#1103' '#1095#1072#1089#1090#1100
-      object N4: TMenuItem
-        Caption = #1050#1086#1085#1089#1087#1077#1082#1090' 1'
-        OnClick = N4Click
-      end
-      object N5: TMenuItem
-        Caption = #1050#1086#1085#1089#1087#1077#1082#1090' 2'
-        OnClick = N5Click
-      end
-      object N6: TMenuItem
-        Caption = #1050#1086#1085#1089#1087#1077#1082#1090' 3'
-        OnClick = N6Click
-      end
-      object N7: TMenuItem
-        Caption = #1050#1086#1085#1089#1087#1077#1082#1090' 4'
-        OnClick = N7Click
-      end
-      object N51: TMenuItem
-        Caption = #1050#1086#1085#1089#1087#1077#1082#1090' 5'
-        OnClick = N51Click
-      end
+    object N2: TMenuItem
+      Caption = #1048#1085#1089#1090#1088#1091#1082#1094#1080#1103' '#1087#1086' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+      OnClick = N2Click
     end
   end
 end

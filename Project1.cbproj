@@ -240,6 +240,24 @@
             <DependentOn>Unit16.h</DependentOn>
             <BuildOrder>17</BuildOrder>
         </CppCompile>
+        <CppCompile Include="Unit17.cpp">
+            <Form>Form17</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit17.h</DependentOn>
+            <BuildOrder>18</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit18.cpp">
+            <Form>Form18</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit18.h</DependentOn>
+            <BuildOrder>19</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit19.cpp">
+            <Form>Form19</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>Unit19.h</DependentOn>
+            <BuildOrder>20</BuildOrder>
+        </CppCompile>
         <CppCompile Include="Unit2.cpp">
             <Form>Form2</Form>
             <FormType>dfm</FormType>
@@ -284,13 +302,14 @@
         </CppCompile>
         <FormResources Include="Unit3.dfm"/>
         <FormResources Include="Unit2.dfm"/>
+        <FormResources Include="Unit17.dfm"/>
         <FormResources Include="Unit16.dfm"/>
-        <FormResources Include="Unit15.dfm"/>
         <FormResources Include="Unit4.dfm"/>
         <FormResources Include="Unit8.dfm"/>
         <FormResources Include="Unit7.dfm"/>
         <FormResources Include="Unit6.dfm"/>
         <FormResources Include="Unit5.dfm"/>
+        <FormResources Include="Unit15.dfm"/>
         <FormResources Include="Unit1.dfm"/>
         <FormResources Include="FiveLesson.dfm"/>
         <FormResources Include="Unit10.dfm"/>
@@ -298,6 +317,8 @@
         <FormResources Include="Unit13.dfm"/>
         <FormResources Include="Unit12.dfm"/>
         <FormResources Include="Unit11.dfm"/>
+        <FormResources Include="Unit18.dfm"/>
+        <FormResources Include="Unit19.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
